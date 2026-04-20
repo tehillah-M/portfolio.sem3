@@ -1,0 +1,62 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.section{
+padding:40px;
+text-align:center;
+}
+
+.profile{
+width:150px;
+border-radius:50%;
+margin-top:10px;
+}
+
+.skill-box{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+margin-top:20px;
+}
+
+.skill-box div{
+background:#333;
+color:white;
+padding:10px 20px;
+border-radius:5px;
+}
+
+.project-card{
+background:white;
+margin:20px auto;
+padding:20px;
+width:60%;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+border-radius:10px;
+}
+
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:10px;
+}
